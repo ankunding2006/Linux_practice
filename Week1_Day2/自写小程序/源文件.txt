@@ -1,0 +1,16 @@
+char buf[1024];
+
+while (1) {
+    ssize_t n = read(fd, buf, sizeof(buf));
+
+    if (n > 0) {
+        // 处理这 n 个字节
+    } else if (n == 0) {
+        // EOF
+        break;
+    } else {
+        // error
+        perror("read");
+        break;
+    }
+}

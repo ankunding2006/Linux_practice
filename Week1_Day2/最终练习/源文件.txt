@@ -1,0 +1,22 @@
+1. errno
+2. perror()
+3. strerror()
+4. 系统调用返回值检查
+5. 短读 short read
+6. 短写 short write
+7. 循环 read/write
+8. lseek() 基础
+9. 文件 offset 基本概念
+
+实践：
+
+实现：
+
+./mycp source.txt destination.txt
+
+要求：
+
+- 文件不存在能够正确提示
+- 正确循环 read
+- 正确处理部分 write
+- 正确关闭 FD
