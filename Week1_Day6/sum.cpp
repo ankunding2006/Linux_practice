@@ -1,27 +1,79 @@
 /*
-Íê³ÉÒ»¸öĞ¡³ÌĞò£º
+å®Œæˆä¸€ä¸ªå°ç¨‹åºï¼š
 
-¸¸½ø³Ì
-¡ı
+çˆ¶è¿›ç¨‹
+â†“
 fork
-¡ı
-×Ó½ø³ÌÖ´ĞĞÒ»¸öÈÎÎñ
-¡ı
-¸¸½ø³ÌµÈ´ı
-¡ı
-²¶»ñ Ctrl+C
-¡ı
-°²È«½áÊø
+â†“
+å­è¿›ç¨‹æ‰§è¡Œä¸€ä¸ªä»»åŠ¡
+â†“
+çˆ¶è¿›ç¨‹ç­‰å¾…
+â†“
+æ•è· Ctrl+C
+â†“
+å®‰å…¨ç»“æŸ
 */
 #include <stdio.h>
+#include <cstdio>
+#include <cstdlib>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <iostream>
 
 void handler(int sig);
 
 int main(void)
 {
+  pid_t result = fork();
+  if (result < 0)
+  {
+    perror("fork å¤±è´¥");
+    return 1;
+  }
+  else if (result == 0)
+  {
+    // child
+    printf("child è¿›ç¨‹\n");
+    std::cout << "è¿™æ˜¯å­è¿›ç¨‹: PID == " << getpid() << std::endl;
+    char *argv[] = {
+        const_cast<char *>("ls"),
+        const_cast<char *>("-l"),
+        nullptr};
+    execvp(argv[0], argv);
+    execvp("ls", argv);
+    perror("execvp");
+    exit(1);
+  }
+  else
+  {
+    // parent
+    struct sigaction action;
+    action.sa_handler = handler;
+    sigemptyset(&action.sa_mask);
+    sigaddset(&action.sa_mask, SIGINT);
+    action.sa_flags = 0;
+    if (sigaction(SIGINT, &action, nullptr))
+    {
+      perror("signal");
+      return 1;
+    }
+    int status;
+    pid_t PID_wait = waitpid(result, &status, 0);
+    if (PID_wait == -1)
+    {
+      perror("waitpid");
+      exit(1);
+    }
+    else
+    {
+      printf("å­è¿›ç¨‹PID:%d\n", PID_wait);
+    }
+  }
 }
 
 void handler(int sig)
 {
-  printf("Ctrl+C\n");
+  std::cout << std::endl
+            << "Received signal: " << sig << std::endl;
 }
