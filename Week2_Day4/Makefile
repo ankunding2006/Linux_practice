@@ -3,8 +3,8 @@ CXXFLAGS := -std=c++11 -Wall -Wextra -pedantic
 LDLIBS := -pthread
 
 
-TARGET := race
-SOURCE := race.cpp
+TARGET := condition_varable
+SOURCE := condition_varable.cpp
 
 .PHONY: all run clean
 
