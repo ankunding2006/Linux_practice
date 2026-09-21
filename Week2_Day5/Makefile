@@ -3,8 +3,8 @@ CXXFLAGS := -std=c++11 -Wall -Wextra -pedantic
 LDLIBS := -pthread
 
 
-TARGET := condition_varable
-SOURCE := condition_varable.cpp
+TARGET := ThreadSafeQueue
+SOURCE := ThreadSafeQueue.cpp
 
 .PHONY: all run clean
 
