@@ -57,6 +57,7 @@ int main()
   }
 
   std::string msg = "hello\n";
+  std::string recv_msg;
   while (running)
   {
     ssize_t n = send(
@@ -64,6 +65,21 @@ int main()
         msg.data(),
         msg.size(),
         0);
+    recv_msg.resize(msg.size());
+    ssize_t received = recv(
+        client_fd,
+        &recv_msg[0],
+        recv_msg.size(),
+        0);
+    if (received > 0)
+    {
+      recv_msg.resize(received);
+    }
+    else
+    {
+      recv_msg.clear();
+    }
+    std::cout << "recv_msg: " << recv_msg << std::endl;
 
     if (n == -1)
     {

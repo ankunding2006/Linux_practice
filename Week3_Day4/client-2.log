@@ -1,0 +1,14 @@
+begin
+recv_msg: hello
+
+recv_msg: hello
+
+recv_msg: hello
+
+recv_msg: hello
+
+recv_msg: hello
+
+
+Received signal: 2
+running==0
