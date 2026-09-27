@@ -1,0 +1,31 @@
+int flags = fcntl(fd, F_GETFL, 0);
+
+fcntl(
+    fd,
+    F_SETFL,
+    flags | O_NONBLOCK
+);
+
+
+ssize_t n = recv(...);
+
+if (n > 0)
+{
+    // 处理数据
+}
+else if (n == 0)
+{
+    // Client 关闭连接
+}
+else
+{
+    if (errno == EAGAIN ||
+        errno == EWOULDBLOCK)
+    {
+        // 暂时没数据
+    }
+    else
+    {
+        // 真正错误
+    }
+}
