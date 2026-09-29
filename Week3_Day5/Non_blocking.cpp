@@ -1,11 +1,13 @@
+#include <sys/socket.h>
+#include <fcntl.h>
+#include <errno.h>
+
 int flags = fcntl(fd, F_GETFL, 0);
 
 fcntl(
     fd,
     F_SETFL,
-    flags | O_NONBLOCK
-);
-
+    flags | O_NONBLOCK);
 
 ssize_t n = recv(...);
 
