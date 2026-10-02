@@ -1,0 +1,7 @@
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/rebuild_cache.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/edit_cache.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/run_all.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/linux_sensor_client.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/run_client.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/run_server.dir
+/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles/linux_sensor_server.dir

@@ -1,0 +1,15 @@
+{
+  "cmake.sourceDirectory": "/root/Desktop/练习/Week4/linux_sensor_server",
+  "cmake.buildDirectory": "${workspaceFolder}/Week4/linux_sensor_server/build",
+  "cmake.configureSettings": {
+    "CMAKE_C_COMPILER": "/usr/bin/gcc",
+    "CMAKE_CXX_COMPILER": "/usr/bin/g++"
+  },
+  "C_Cpp.default.compilerPath": "/usr/bin/g++",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/Week4/linux_sensor_server/include",
+    "${workspaceFolder}/Week4/linux_sensor_server/src",
+    "${workspaceFolder}/**"
+  ]
+}

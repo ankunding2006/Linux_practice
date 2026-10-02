@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/linux_sensor_server.dir/src/main.cpp.o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o  -o linux_sensor_server  -lpthread 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp
+sys/epoll.h
+-
+unistd.h
+-
+iostream
+-
+sys/socket.h
+-
+unistd.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+csignal
+-
+fcntl.h
+-
+errno.h
+-
+

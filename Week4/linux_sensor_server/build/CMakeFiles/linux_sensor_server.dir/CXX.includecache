@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DataQueue.hpp
+condition_variable
+-
+iostream
+-
+mutex
+-
+queue
+-
+thread
+-
+
+../include/main.hpp
+
+/root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp
+sys/epoll.h
+-
+unistd.h
+-
+iostream
+-
+sys/socket.h
+-
+unistd.h
+-
+netinet/in.h
+-
+csignal
+-
+fcntl.h
+-
+errno.h
+-
+main.hpp
+/root/Desktop/练习/Week4/linux_sensor_server/src/main.hpp
+DataQueue.hpp
+/root/Desktop/练习/Week4/linux_sensor_server/src/DataQueue.hpp
+
