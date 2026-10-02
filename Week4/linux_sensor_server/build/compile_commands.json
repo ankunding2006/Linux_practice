@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++    -g   -std=c++17 -o CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp"
+},
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++   -I/root/Desktop/练习/Week4/linux_sensor_server/include  -g   -std=c++17 -o CMakeFiles/linux_sensor_server.dir/src/main.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp"
+},
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++   -I/root/Desktop/练习/Week4/linux_sensor_server/include  -g   -std=c++17 -o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp"
+},
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++   -I/root/Desktop/练习/Week4/linux_sensor_server/include  -g   -std=c++17 -o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp"
+},
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++   -I/root/Desktop/练习/Week4/linux_sensor_server/include  -g   -std=c++17 -o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp"
+},
+{
+  "directory": "/root/Desktop/练习/Week4/linux_sensor_server/build",
+  "command": "/usr/bin/g++   -I/root/Desktop/练习/Week4/linux_sensor_server/include  -g   -std=c++17 -o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp",
+  "file": "/root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp"
+}
+]

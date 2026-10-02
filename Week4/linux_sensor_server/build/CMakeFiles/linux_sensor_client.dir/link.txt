@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o  -o linux_sensor_client 
+/usr/bin/g++  -g   CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o  -o linux_sensor_client 

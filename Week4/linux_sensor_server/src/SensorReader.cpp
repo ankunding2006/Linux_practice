@@ -34,7 +34,7 @@ void task_sensor_read()
     {
       lseek(fd1, 0, SEEK_SET);
       Offset = 0;
-      break;
+      std::fill(buf.begin(), buf.end(), 0);
     }
     else
     {

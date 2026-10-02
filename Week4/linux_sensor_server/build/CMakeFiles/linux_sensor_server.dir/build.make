@@ -60,67 +60,67 @@ include CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/main.cpp.o: CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linux_sensor_server.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/main.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/main.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp
 
 CMakeFiles/linux_sensor_server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp > CMakeFiles/linux_sensor_server.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp > CMakeFiles/linux_sensor_server.dir/src/main.cpp.i
 
 CMakeFiles/linux_sensor_server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp -o CMakeFiles/linux_sensor_server.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/main.cpp -o CMakeFiles/linux_sensor_server.dir/src/main.cpp.s
 
 CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o: CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o: ../src/SensorReader.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp
 
 CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp > CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp > CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.i
 
 CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp -o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/SensorReader.cpp -o CMakeFiles/linux_sensor_server.dir/src/SensorReader.cpp.s
 
 CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o: CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o: ../src/DataProcessor.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp
 
 CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp > CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp > CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.i
 
 CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp -o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/DataProcessor.cpp -o CMakeFiles/linux_sensor_server.dir/src/DataProcessor.cpp.s
 
 CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o: CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o: ../src/TcpServer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp
 
 CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp > CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp > CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.i
 
 CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp -o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/TcpServer.cpp -o CMakeFiles/linux_sensor_server.dir/src/TcpServer.cpp.s
 
 CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o: CMakeFiles/linux_sensor_server.dir/flags.make
 CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o: ../src/Logger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp
 
 CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp > CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp > CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.i
 
 CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp -o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/src/Logger.cpp -o CMakeFiles/linux_sensor_server.dir/src/Logger.cpp.s
 
 # Object files for target linux_sensor_server
 linux_sensor_server_OBJECTS = \

@@ -78,7 +78,7 @@ int main()
         msg.data(),
         msg.size(),
         0);
-    std::cout << "输出了 " << n << " 个字节" << "输出内容: " << msg << std::endl;
+    std::cout << "输出了 " << n << " 个字节" << "输出内容: " << msg << "  ";
     recv_msg.resize(msg.size());
     ssize_t received = recv(
         client_fd,
@@ -100,8 +100,6 @@ int main()
       perror("send");
       break;
     }
-
-    sleep(1);
   }
 
   if (close(client_fd) == -1)

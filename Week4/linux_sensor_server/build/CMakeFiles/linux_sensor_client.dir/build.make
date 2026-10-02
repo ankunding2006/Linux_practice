@@ -60,15 +60,15 @@ include CMakeFiles/linux_sensor_client.dir/flags.make
 CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o: CMakeFiles/linux_sensor_client.dir/flags.make
 CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o: ../Client/TCP_Client.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Desktop/练习/Week4/linux_sensor_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.o -c /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp
 
 CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp > CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp > CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.i
 
 CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp -o CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Desktop/练习/Week4/linux_sensor_server/Client/TCP_Client.cpp -o CMakeFiles/linux_sensor_client.dir/Client/TCP_Client.cpp.s
 
 # Object files for target linux_sensor_client
 linux_sensor_client_OBJECTS = \

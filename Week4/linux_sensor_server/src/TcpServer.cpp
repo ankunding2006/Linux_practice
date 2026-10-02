@@ -96,6 +96,7 @@ void task_server()
             {
               data_type massage = queue_processor_data.pop();
               ssize_t sent = send(fd, &massage, 1, MSG_NOSIGNAL);
+              std::cout << "发送了 " << sent << " 个字节" << std::endl;
               if (sent < 0)
               {
                 perror("send");

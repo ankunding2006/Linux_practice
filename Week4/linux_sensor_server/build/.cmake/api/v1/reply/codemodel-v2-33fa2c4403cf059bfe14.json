@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "linux_sensor_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "linux_sensor_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linux_sensor_client-Debug-c88b25e2640d69ed3269.json",
+					"name" : "linux_sensor_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linux_sensor_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linux_sensor_server-Debug-666b201e2104623de191.json",
+					"name" : "linux_sensor_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_all-Debug-a71742bef51713821627.json",
+					"name" : "run_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_client-Debug-bed1ee74fa7247dbff3a.json",
+					"name" : "run_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_server-Debug-9cfe58a80ff3238fd519.json",
+					"name" : "run_server",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Desktop/练习/Week4/linux_sensor_server/build",
+		"source" : "/root/Desktop/练习/Week4/linux_sensor_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
